@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pagina2.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=cabinet-grotesk@800,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pdf-container">
+        <button id="playBtn">CLICK AQUÍ</button>
+
+<audio id="myAudio" src="resources/audio/Melendi - Tu jardín con enanitos (Lyric Video Oficial  Letra Completa).mp3"></audio>
+    <iframe src="resources/pdf/carta cumpleaños.pdf"></iframe>
+  </div>
+
+
+  <script>
+  const btn = document.getElementById('playBtn');
+  const audio = document.getElementById('myAudio');
+
+  btn.addEventListener('click', () => {
+    audio.play();
+  });
+</script>
+</body>
+</html>
